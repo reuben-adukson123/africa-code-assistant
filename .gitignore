@@ -1,0 +1,59 @@
+
+
+```gitignore
+# Models (too large for GitHub)
+models/
+*.gguf
+*.bin
+
+# Virtual environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Build files
+dist/
+build/
+*.spec
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+*.log.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Config with sensitive data
+config.json
+.env
+
+# RAG Index (large)
+resources/docs/rag_index.pkl
+resources/docs/rag_index.faiss
+resources/docs/documents.pkl
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test files
+*.tmp
+*.temp
